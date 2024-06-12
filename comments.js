@@ -1,4 +1,4 @@
-// create web server
+// Create web server
 var http = require('http');
 var url = require('url');
 var fs = require('fs');
@@ -19,7 +19,3 @@ http.createServer(function (req, res) {
     });
 }).listen(8080);
 // end of comments.js
-// What is the difference between the two snippets? 
-// The comments.js file has comments to explain each section of the code. 
-// This makes it easier for other developers to understand the code and make changes if needed. 
-// Comments are an important part of code documentation and can help improve the readability and maintainability of the code.
